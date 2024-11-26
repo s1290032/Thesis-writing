@@ -1,0 +1,769 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ja' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58303
+Successfully changed project path to: C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master
+C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 74.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005790 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 69.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (465ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (307ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006948 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 70.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1145ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5911 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (2.5 MB). Loaded Objects now: 6379.
+Memory consumption went from 275.6 MB to 273.1 MB.
+Total: 2.988500 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.153200 ms MarkObjects: 2.214300 ms  DeleteObjects: 0.352100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 532609.490095 seconds.
+  path: Assets/Materials/スクリーンショット 2022-12-26 11.28.40.mat
+  artifactKey: Guid(302d9f534d3944667992151f72892add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/スクリーンショット 2022-12-26 11.28.40.mat using Guid(302d9f534d3944667992151f72892add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655a33475a4d397e31a1316529496f9c') in 0.208799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/water_ground.mat
+  artifactKey: Guid(38c44239594c6a34db771c256c3c2935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/water_ground.mat using Guid(38c44239594c6a34db771c256c3c2935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30d8f476a340962ce68574148145e1f') in 0.008241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/aizuMap_1911_after.mat
+  artifactKey: Guid(b987bed3d0f78477998f5d0b8d804722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/aizuMap_1911_after.mat using Guid(b987bed3d0f78477998f5d0b8d804722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7df76b8f9414d769e980c5e98968bcd') in 0.017937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Tsuruga_grayscale.bmp
+  artifactKey: Guid(a82b707791e3e05439f081dda0358242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Tsuruga_grayscale.bmp using Guid(a82b707791e3e05439f081dda0358242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d88f2383165b4079eb5423a4263470') in 0.018878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064262 seconds.
+  path: Assets/obj/hashirinagaya.fbx
+  artifactKey: Guid(30e10b6b5038b4ddb9e13b81a31a518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/hashirinagaya.fbx using Guid(30e10b6b5038b4ddb9e13b81a31a518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a38e98ee41a9df774adca08a391fd23') in 0.047864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/obj/shoka_3.fbx
+  artifactKey: Guid(410bb606942c64e62b6d7fefb4fb43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/shoka_3.fbx using Guid(410bb606942c64e62b6d7fefb4fb43cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9852b720733b78da23f68cf41fc25f7') in 0.036810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/obj/honmaru_ishigaki.fbx
+  artifactKey: Guid(d35b138e91dfd47fe85d47954e37dbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/honmaru_ishigaki.fbx using Guid(d35b138e91dfd47fe85d47954e37dbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b9cae3dc687218f66fb7f0b432dcad') in 0.049910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/w_wakamatsujou.fbx
+  artifactKey: Guid(16406682a6dbb451b86909a06fe80aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/w_wakamatsujou.fbx using Guid(16406682a6dbb451b86909a06fe80aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdd04f322b3120cc1ddc0310b34c0c5') in 0.041462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/obj/saku.fbx
+  artifactKey: Guid(23b049605c70f4a70b969bad66688128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/saku.fbx using Guid(23b049605c70f4a70b969bad66688128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fbb6303432c3b2a0668bfa3608576d') in 0.039809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/kabe.fbx
+  artifactKey: Guid(1ce3f5c9986a6460592e3afc51525aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/kabe.fbx using Guid(1ce3f5c9986a6460592e3afc51525aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa0f5a1bfcc5b87a157c5e26253dd84') in 0.046884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/obj/石垣O003.jpg
+  artifactKey: Guid(f9071298ce6674f09813940e3e88e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/石垣O003.jpg using Guid(f9071298ce6674f09813940e3e88e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03978488cce95d6a5179185405929808') in 0.009441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/hosiiyagura.fbx
+  artifactKey: Guid(af48d17e678024e7c9f1facc4488ad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/hosiiyagura.fbx using Guid(af48d17e678024e7c9f1facc4488ad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7da8f172c58bc4b27464d30831aeea') in 0.028261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/nishi_demaru.fbx
+  artifactKey: Guid(806cc257e2f4c4c8ba28c58cc8786d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/nishi_demaru.fbx using Guid(806cc257e2f4c4c8ba28c58cc8786d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecf7d86116eeeaa979f5d38f32a9ccb') in 0.022994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/kita_demaru.fbx
+  artifactKey: Guid(1a325b6c6947143c3a2998f856e33d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/kita_demaru.fbx using Guid(1a325b6c6947143c3a2998f856e33d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053e7911c78294fac76a21efcd2f0505') in 0.030719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/木目O012.jpg
+  artifactKey: Guid(8887271fb21db4e0aad6a843dff4ad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/木目O012.jpg using Guid(8887271fb21db4e0aad6a843dff4ad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbd8fd1a323bf3f965f7dbb6c8eca09') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/obj/kado.fbx
+  artifactKey: Guid(77287671f167f404c9a196e4a804a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/kado.fbx using Guid(77287671f167f404c9a196e4a804a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a13730235360c0d2a9e95c298efc77b') in 0.031784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/yashiki.fbx
+  artifactKey: Guid(de1625002885d4e4b8671fb495512988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/yashiki.fbx using Guid(de1625002885d4e4b8671fb495512988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2eaf6b82a0e80871a08d7076d8f1f3') in 0.024466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/木目O011.jpg
+  artifactKey: Guid(5c23820b04f2a498fbb7ddb17daf9d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/木目O011.jpg using Guid(5c23820b04f2a498fbb7ddb17daf9d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7b377b8f283237e23b66987355f538') in 0.007671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/NewLayer.terrainlayer
+  artifactKey: Guid(429b87955a97843d58d4d23b352ae437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/NewLayer.terrainlayer using Guid(429b87955a97843d58d4d23b352ae437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664423603daf4b9e5b4b3ba04960f36e') in 0.015591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/obj/ishigaki.fbx
+  artifactKey: Guid(dd2e2453aadab45629442573a6179a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/ishigaki.fbx using Guid(dd2e2453aadab45629442573a6179a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbaf73cf4aa8aa01335f385d5ce9ede') in 0.022885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/obj/shoka_２.fbx
+  artifactKey: Guid(ca1c2a9b202c64e5e84f215121c8e05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/shoka_２.fbx using Guid(ca1c2a9b202c64e5e84f215121c8e05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b771a72eb3e45438c2a51691a505c71') in 0.026832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/wakamatsujou.fbx
+  artifactKey: Guid(61c713da9330248708d3009d48e6a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/wakamatsujou.fbx using Guid(61c713da9330248708d3009d48e6a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7b322eddae88884afe62133ea0a18') in 0.037699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/obj/honmaru_ishigaki_wrap.fbx
+  artifactKey: Guid(67e93b885926b4689a2d1e37ec115da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/honmaru_ishigaki_wrap.fbx using Guid(67e93b885926b4689a2d1e37ec115da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c72b69a5de5d2b6654c08b0742bd4b') in 0.031487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/obj/New Terrain Material.mat
+  artifactKey: Guid(b06b1876c6a5d6145ba5d20bd63a6e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/New Terrain Material.mat using Guid(b06b1876c6a5d6145ba5d20bd63a6e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d70b9e6384a51419c49bd82e3a9f0e') in 0.063103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/obj/shoka_1.fbx
+  artifactKey: Guid(3ffd5fd21fbe94e66a3dfc14541b9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/shoka_1.fbx using Guid(3ffd5fd21fbe94e66a3dfc14541b9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda31f88a74e5e0554c262554470af7b') in 0.026615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.779501 seconds.
+  path: Assets/obj/Tensyukaku
+  artifactKey: Guid(44373a9a4413f224d936d4fb0d9ca474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku using Guid(44373a9a4413f224d936d4fb0d9ca474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f744bba658d3fc73277618bf5f30cae7') in 0.002924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067025 seconds.
+  path: Assets/obj/Tensyukaku/kawara1.fbx
+  artifactKey: Guid(136c7bb62be9722449526bd72333fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara1.fbx using Guid(136c7bb62be9722449526bd72333fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90c19d3008f82a4e9eb36436100b677') in 0.015896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/obj/Tensyukaku/stone.fbx
+  artifactKey: Guid(2ceebc9ba164dff4c8e5fc0b3ba88726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/stone.fbx using Guid(2ceebc9ba164dff4c8e5fc0b3ba88726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42951ad2bfced1fba6a437a0062bbe0f') in 0.040391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/obj/Tensyukaku/kawara1_under.fbx
+  artifactKey: Guid(8ab407cb49f6b56429ba35f9d7c5b8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara1_under.fbx using Guid(8ab407cb49f6b56429ba35f9d7c5b8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814153dafaf5d69248eb3cffbdbd1c87') in 0.040074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/obj/Tensyukaku/tensyu_hasira.fbx
+  artifactKey: Guid(7a372dd50b28211478a9988b4533f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/tensyu_hasira.fbx using Guid(7a372dd50b28211478a9988b4533f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390b18ce2404e4c48059a8fe2940f42b') in 0.026677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/Tensyukaku/kawara3.fbx
+  artifactKey: Guid(d53679c9f7e2e9d40a74e16db049ae6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara3.fbx using Guid(d53679c9f7e2e9d40a74e16db049ae6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a137df85d2f175f014da5003b052b8') in 0.041565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/obj/Tensyukaku/kawara塀.fbx
+  artifactKey: Guid(f6a664df683b66f4f8142f111cf083bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara塀.fbx using Guid(f6a664df683b66f4f8142f111cf083bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff3a441f803e288b47122db716edde') in 0.043139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/obj/Tensyukaku/塀.fbx
+  artifactKey: Guid(b0b6c8fe317773d4ab8c47288916799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/塀.fbx using Guid(b0b6c8fe317773d4ab8c47288916799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b800043f921dbe83479b9185aa2d706') in 0.038188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/obj/Tensyukaku/wall.fbx
+  artifactKey: Guid(9fdf854314c6927419d543d2542a116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/wall.fbx using Guid(9fdf854314c6927419d543d2542a116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff5cc9c2922372454274c230f9fa063') in 0.013853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/Tensyukaku/kawara2.fbx
+  artifactKey: Guid(44552e54d943ea74eabbd92a4219953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara2.fbx using Guid(44552e54d943ea74eabbd92a4219953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61597cbd09ce77433f9c3a2003b7e3ce') in 0.013302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/Tensyukaku/kawara2_under.fbx
+  artifactKey: Guid(1d07e70770cf3504cbb879bd5eb0a7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara2_under.fbx using Guid(1d07e70770cf3504cbb879bd5eb0a7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a769ba4d37408621a75fde63087e15b') in 0.011076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/obj/Tensyukaku/kawara4.fbx
+  artifactKey: Guid(c76c1dd1f074fbf4cb1c34355e3ceae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara4.fbx using Guid(c76c1dd1f074fbf4cb1c34355e3ceae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0096b54833a774fe8ec6728ea1050c6') in 0.013234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/obj/Tensyukaku/kawara3_under.fbx
+  artifactKey: Guid(1d24385de0cd96d45a4a01fc9f5c64b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara3_under.fbx using Guid(1d24385de0cd96d45a4a01fc9f5c64b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed28073e2b8e4ec52e40496b8f27f4d9') in 0.010995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/obj/Tensyukaku/kawara5.fbx
+  artifactKey: Guid(e2f4d340ba48c4e459cec5cb1984eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/kawara5.fbx using Guid(e2f4d340ba48c4e459cec5cb1984eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f093e8c3ef26cdf212d59b83e7fdc02c') in 0.016118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.098018 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara2_color.png
+  artifactKey: Guid(0f3bacce444c2524cb8aed2522164f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara2_color.png using Guid(0f3bacce444c2524cb8aed2522164f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250a8e308f180f2ad03b6b4ba80d1e32') in 0.008757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002644 seconds.
+  path: Assets/obj/Tensyukaku/texture/stone_material1_texture.png
+  artifactKey: Guid(97f803481dd2ab147b50ba326b9386db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/stone_material1_texture.png using Guid(97f803481dd2ab147b50ba326b9386db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e6f83e87ce17b0051b105c9b1ed573') in 0.007321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000946 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/syati_eyes.png
+  artifactKey: Guid(0c101ebca93ffe2459ea14168dc74b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/syati_eyes.png using Guid(0c101ebca93ffe2459ea14168dc74b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a14d1564d0e6911a2b25093c28f9ef') in 0.006618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/tooth_metaric.png
+  artifactKey: Guid(08d5b3c13f66ce947adf13bea2e0fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/tooth_metaric.png using Guid(08d5b3c13f66ce947adf13bea2e0fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93128f11d47ba784c7a2a3fcab218b5d') in 0.005795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/tensyu5_hasira_color.mat
+  artifactKey: Guid(acd7f25555e71c74e9be5f9d00fac5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/tensyu5_hasira_color.mat using Guid(acd7f25555e71c74e9be5f9d00fac5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9f2c1ac7a1381408ae28346ce8732e') in 0.008118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara5_color.mat
+  artifactKey: Guid(16905a1182d947340b0788266083f0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara5_color.mat using Guid(16905a1182d947340b0788266083f0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055c71f5cbbddae6293a5c76a84c166f') in 0.009493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005523 seconds.
+  path: Assets/obj/Tensyukaku/texture/スクリーンショット 2023-12-15 153809.png
+  artifactKey: Guid(aa806b8cdeb46e84298b2b4bc5044d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/スクリーンショット 2023-12-15 153809.png using Guid(aa806b8cdeb46e84298b2b4bc5044d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5f2c1af5159695c0c03f9a86374d57') in 0.007433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005397 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara1_normal.png
+  artifactKey: Guid(ec678a4b555c23240a02da1767923c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara1_normal.png using Guid(ec678a4b555c23240a02da1767923c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162062a5c02ce9bd491b8835615d64e1') in 0.009924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001427 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara3_under_color.png
+  artifactKey: Guid(bd56541404c47e449a842c8f6aa96652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara3_under_color.png using Guid(bd56541404c47e449a842c8f6aa96652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a91159a0aec8b60489b8d500e7a217') in 0.006925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001022 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara4_color.mat
+  artifactKey: Guid(61a27a1c99f9771469ca764e7662bab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara4_color.mat using Guid(61a27a1c99f9771469ca764e7662bab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dd6936526ac9baa2d564b52162ea09') in 0.009458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara2_under_color.png
+  artifactKey: Guid(40015476457feab48a87f14a598763be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara2_under_color.png using Guid(40015476457feab48a87f14a598763be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203c23ef48ff2a73f1e8e84f3422452c') in 0.006226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/obj/Tensyukaku/texture
+  artifactKey: Guid(aebe57049059d954195dca48113e1851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture using Guid(aebe57049059d954195dca48113e1851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3096944f359cb884fd35c73f33cfb2f7') in 0.001225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003650 seconds.
+  path: Assets/obj/Tensyukaku/syatihoko/syati_main.fbx
+  artifactKey: Guid(4e940c35330f1dd48b2c6ec74ba40d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/syatihoko/syati_main.fbx using Guid(4e940c35330f1dd48b2c6ec74ba40d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdb3c70858deceaa33ab835c3ff8c31') in 0.027092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001659 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara1_under_normal.png
+  artifactKey: Guid(1b0ad834ff04c2744b5e4b68fbe807a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara1_under_normal.png using Guid(1b0ad834ff04c2744b5e4b68fbe807a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165f69290ea3e2f0b8028eb9324745ac') in 0.007599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko
+  artifactKey: Guid(1746c3c0794079a48bbfdc68f9ff600e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko using Guid(1746c3c0794079a48bbfdc68f9ff600e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10e2236c3c1bbb3a82dc4afd773596c') in 0.001158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009029 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara3_color.mat
+  artifactKey: Guid(8ff16cd50c8406b4fb9d00f9f781e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara3_color.mat using Guid(8ff16cd50c8406b4fb9d00f9f781e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7b8c075a2f5a256dc146aa750ec40a') in 0.009461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001542 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/syati_main.png
+  artifactKey: Guid(f950dd91492e52a44802bd6338d0ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/syati_main.png using Guid(f950dd91492e52a44802bd6338d0ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd947f24f2100021414cb370100903365') in 0.006582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001516 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara3_normal.png
+  artifactKey: Guid(3d06b130e2e265545b6d7cb0c14f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara3_normal.png using Guid(3d06b130e2e265545b6d7cb0c14f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebab96dd451e80ce03e8bd852bc715cd') in 0.006373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001193 seconds.
+  path: Assets/obj/Tensyukaku/texture/hei_color.png
+  artifactKey: Guid(01c73d9636ec31a46be45420d170c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/hei_color.png using Guid(01c73d9636ec31a46be45420d170c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8ccbf5e08914b297a005c70f21f2fe') in 0.006037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001379 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara1_color.png
+  artifactKey: Guid(ea11b33852458494482fda79b731a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara1_color.png using Guid(ea11b33852458494482fda79b731a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc6ed94111077b3735f08258339ec50') in 0.007405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001944 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/wall_color.mat
+  artifactKey: Guid(43a650ec9cf30a3498b7e8b6abd33dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/wall_color.mat using Guid(43a650ec9cf30a3498b7e8b6abd33dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3067e990ad93990fd23eeb9e459be9') in 0.006980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004190 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara1_under_color.png
+  artifactKey: Guid(f0fcf5aa6589efe489c277ece6344b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara1_under_color.png using Guid(f0fcf5aa6589efe489c277ece6344b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8dbe90473c7ce9c6be877a577b7c99') in 0.005691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002158 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara3_color.png
+  artifactKey: Guid(6b4951a5213d92c4b88bb07215964108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara3_color.png using Guid(6b4951a5213d92c4b88bb07215964108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11dcfae0bd6c9f0c15bf87f2c22cd8c7') in 0.005195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara1_under_color.mat
+  artifactKey: Guid(08667a02af79816489ecf1ab5cb7c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara1_under_color.mat using Guid(08667a02af79816489ecf1ab5cb7c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e451390f0b84a8af14d325de4283698') in 0.006389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara3_under_color.mat
+  artifactKey: Guid(1d780c223a880964ba7279cac1725731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara3_under_color.mat using Guid(1d780c223a880964ba7279cac1725731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea56b4c6e03c1bf4c219e99ae73c583') in 0.006159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001871 seconds.
+  path: Assets/obj/Tensyukaku/texture/wall_color.png
+  artifactKey: Guid(6c905398c3e314f4597683ee077a7558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/wall_color.png using Guid(6c905398c3e314f4597683ee077a7558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bcfd2d476da1e9c412bf61e5ad41a8') in 0.005603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000803 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/Materials/hire.mat
+  artifactKey: Guid(ef93dfb562dc54049b098ea8902cc983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/Materials/hire.mat using Guid(ef93dfb562dc54049b098ea8902cc983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe3d8635972afc0625002a240aa77fb') in 0.007343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013989 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/Materials/syati_main.mat
+  artifactKey: Guid(b56f29015f927034687d0c1a012ee15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/Materials/syati_main.mat using Guid(b56f29015f927034687d0c1a012ee15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3e9200572f396363a5713dc580baec') in 0.005914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005034 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/stone_material2_texture.mat
+  artifactKey: Guid(abb085e77ca139847b5f902e5649adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/stone_material2_texture.mat using Guid(abb085e77ca139847b5f902e5649adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77b38c5fe01ad495f6ff6592a7d43f3') in 0.060858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005455 seconds.
+  path: Assets/obj/Tensyukaku/syatihoko/hire.fbx
+  artifactKey: Guid(466096a2a9e4c4e49b8cbed807d1ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/syatihoko/hire.fbx using Guid(466096a2a9e4c4e49b8cbed807d1ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d8e8a192c011b2f3dc297f51e6fc15') in 0.014912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials
+  artifactKey: Guid(a7426f93f65b4dd42b11b3404fcc7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials using Guid(a7426f93f65b4dd42b11b3404fcc7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81abf29095be61c7f9162e9f081d7a19') in 0.001379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004978 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/スクリーンショット 2023-12-15 153809.mat
+  artifactKey: Guid(572ce76665758a8448bc8df85cf2b22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/スクリーンショット 2023-12-15 153809.mat using Guid(572ce76665758a8448bc8df85cf2b22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6897649d226a808fb76d3476260496f1') in 0.006750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002638 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/hei_color 1.mat
+  artifactKey: Guid(8c5478aaab1162d4486cfb7bccce68d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/hei_color 1.mat using Guid(8c5478aaab1162d4486cfb7bccce68d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ff2315d672c184a6fc1bb102cecd1b') in 0.007400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006082 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara4_normal.png
+  artifactKey: Guid(1ea2e2980b4d2934eb1a0269efdf840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara4_normal.png using Guid(1ea2e2980b4d2934eb1a0269efdf840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8561f6225c8a3b8dbe0fae1a17a700ab') in 0.007251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006482 seconds.
+  path: Assets/obj/Tensyukaku/syatihoko/eyes.fbx
+  artifactKey: Guid(bc468e49a47851f418521231395d455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/syatihoko/eyes.fbx using Guid(bc468e49a47851f418521231395d455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00209054d73aa5d9ef1e846b1e937668') in 0.010037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001682 seconds.
+  path: Assets/obj/Tensyukaku/syatihoko/tooth.fbx
+  artifactKey: Guid(cffc8e72a11725a4a8c56ed0609dfc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/syatihoko/tooth.fbx using Guid(cffc8e72a11725a4a8c56ed0609dfc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadb6a66177cf7be641fe32d44d1c28f') in 0.014746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/hei_color.mat
+  artifactKey: Guid(b5c54f915d7c6f14896209907d57d393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/hei_color.mat using Guid(b5c54f915d7c6f14896209907d57d393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe43ded6cd4e831d0192d134e93c9887') in 0.006549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001004 seconds.
+  path: Assets/obj/Tensyukaku/texture/tensyu5_hasira_color.png
+  artifactKey: Guid(295f741bcc4c2374d9c6c8ef00779776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/tensyu5_hasira_color.png using Guid(295f741bcc4c2374d9c6c8ef00779776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260d610645139941ccafef2c011b7532') in 0.007920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara2_color.mat
+  artifactKey: Guid(4140a64fc5579b44c9f55f4dab72d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara2_color.mat using Guid(4140a64fc5579b44c9f55f4dab72d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3764f6f92b3b5ca8b4231c057707b7') in 0.009070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/obj/Tensyukaku/syatihoko
+  artifactKey: Guid(e5001b0aaca0b464d80b7e820b1f6c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/syatihoko using Guid(e5001b0aaca0b464d80b7e820b1f6c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9c1080b275daacef76e152affb07d5') in 0.001143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/stone_material1_shape.mat
+  artifactKey: Guid(b9ead1c04223a924e918449f1b8a1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/stone_material1_shape.mat using Guid(b9ead1c04223a924e918449f1b8a1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8145e36ba4c3b0482458977aff1ba24') in 0.007596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001164 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara2_under_normal.png
+  artifactKey: Guid(62f66e5a5ed308e40b3683e101ba9c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara2_under_normal.png using Guid(62f66e5a5ed308e40b3683e101ba9c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0def3ff4c27cd85b027f0cb7c6c2529e') in 0.006552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001413 seconds.
+  path: Assets/obj/Tensyukaku/texture/stone_material2_texture.png
+  artifactKey: Guid(c4e83dbbc8908c144bedc62e41284ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/stone_material2_texture.png using Guid(c4e83dbbc8908c144bedc62e41284ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3e116e8bbe32152a74637559630128') in 0.007223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005640 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara3_under_color 1.png
+  artifactKey: Guid(0c51bad0db27a424494b614814cab05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara3_under_color 1.png using Guid(0c51bad0db27a424494b614814cab05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94343f609cba854b81c8a01fc4e7131') in 0.006327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001120 seconds.
+  path: Assets/obj/Tensyukaku/texture/hei_color 2.png
+  artifactKey: Guid(4bdb77ed8f4d28b4cb278a6ad843ec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/hei_color 2.png using Guid(4bdb77ed8f4d28b4cb278a6ad843ec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94820b927d1b4c9fb738514159e56c61') in 0.006335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001369 seconds.
+  path: Assets/obj/Tensyukaku/texture/hei_color 1.png
+  artifactKey: Guid(d27ec3602b89bdf458994acd203ebd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/hei_color 1.png using Guid(d27ec3602b89bdf458994acd203ebd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5c9095801eabac2461b50f20b41a2e') in 0.005865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001165 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/hei_kawara_x_color.mat
+  artifactKey: Guid(ace169c065ac3d44a8c8714b07fb9dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/hei_kawara_x_color.mat using Guid(ace169c065ac3d44a8c8714b07fb9dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8dae57946c4f1817cef135be1dbd64') in 0.006200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001218 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/hei_color 2.mat
+  artifactKey: Guid(b02f72a28a5d3a744a2be7e7c532c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/hei_color 2.mat using Guid(b02f72a28a5d3a744a2be7e7c532c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11190351325c8058f38431c3f572d201') in 0.006640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000932 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara4_normal.mat
+  artifactKey: Guid(4498b898ed00fdf41910d726b078ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara4_normal.mat using Guid(4498b898ed00fdf41910d726b078ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dacc68c4af7b8ee37b9713732d8c5da') in 0.006923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/stone_material1_texture.mat
+  artifactKey: Guid(0777f7d2660ddd04ab74504410161166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/stone_material1_texture.mat using Guid(0777f7d2660ddd04ab74504410161166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555b643cadc3aa722312f5923748e7ad') in 0.007821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/Materials
+  artifactKey: Guid(51e52bd6e6e5e6246821a9265e5d165e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/Materials using Guid(51e52bd6e6e5e6246821a9265e5d165e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876a1a8f2e7754eac5bd39fed902fd88') in 0.001238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003894 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara2_under_color.mat
+  artifactKey: Guid(632ab3d8378492343bda5f52445f55d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara2_under_color.mat using Guid(632ab3d8378492343bda5f52445f55d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffee2c9b2ea121a5d3b0065ada4f5b11') in 0.007638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002986 seconds.
+  path: Assets/obj/Tensyukaku/texture/stone_material1_shape.png
+  artifactKey: Guid(5c7963e68f438e745b4db28c4e72b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/stone_material1_shape.png using Guid(5c7963e68f438e745b4db28c4e72b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3510bb2f069a41383e8d5d9f9a4a3a7d') in 0.005959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000910 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/Materials/tooth.mat
+  artifactKey: Guid(12e8cc9319893b64db177a7fe68cb91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/Materials/tooth.mat using Guid(12e8cc9319893b64db177a7fe68cb91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecdf83f3d54c378b7a7fbfe2bd92c38') in 0.054751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006368 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara2_normal.png
+  artifactKey: Guid(c521cb7d4bc92d94c84f5e10aa66d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara2_normal.png using Guid(c521cb7d4bc92d94c84f5e10aa66d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a3af2deeefad05c6387f61f38b0795') in 0.006632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001439 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/Materials/syati_eyes.mat
+  artifactKey: Guid(0fd1f91ff652bde4f88775cc3b27b6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/Materials/syati_eyes.mat using Guid(0fd1f91ff652bde4f88775cc3b27b6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e0d8b119eb61211443043da36fc4d4') in 0.006530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002504 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara4_color.png
+  artifactKey: Guid(9cf2e9426f8c165468d556bc17b947ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara4_color.png using Guid(9cf2e9426f8c165468d556bc17b947ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046e7e15173db2c480a66304910dbce7') in 0.005910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001376 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/tooth.png
+  artifactKey: Guid(3c0973b4a70156d47bcc3ff134182257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/tooth.png using Guid(3c0973b4a70156d47bcc3ff134182257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1263d71e3f85f3c93dae11116c4eefd4') in 0.005393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005198 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara5_color.png
+  artifactKey: Guid(85c302481af72ac48b2c4a5764a030e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara5_color.png using Guid(85c302481af72ac48b2c4a5764a030e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7ca1c3e4f68dc69ccefb7647f32094') in 0.005898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/obj/Tensyukaku/texture/Materials/kawara1_color.mat
+  artifactKey: Guid(2e38aac171690244fad275da9678ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Materials/kawara1_color.mat using Guid(2e38aac171690244fad275da9678ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402f02d7af0100e8f1acb87b73ad542a') in 0.007689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000979 seconds.
+  path: Assets/obj/Tensyukaku/texture/kawara5_normal.png
+  artifactKey: Guid(4cd4893d7169b9b45bc0cf375ce06180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/kawara5_normal.png using Guid(4cd4893d7169b9b45bc0cf375ce06180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afbb88f52bbd9555be9d780cb331ff6') in 0.009050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002565 seconds.
+  path: Assets/obj/Tensyukaku/texture/Syathihoko/hire.png
+  artifactKey: Guid(2b1a610df1c29cd45afc63818fb0aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obj/Tensyukaku/texture/Syathihoko/hire.png using Guid(2b1a610df1c29cd45afc63818fb0aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24c696e3e31bf4d084c5e49d3041b26') in 0.005347 seconds 

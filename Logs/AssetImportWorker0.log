@@ -15,7 +15,7 @@ C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64922
+61962
 Successfully changed project path to: C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master
 C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/PC_User/Documents/Unity/AizuOldCityMap-master/AizuOldCityMap-master
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 70.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003775 seconds.
+Registered in 0.006624 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 70.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.429 seconds
+- Completed reload, in  0.471 seconds
 Domain Reload Profiling:
-	ReloadAssembly (429ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (472ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (316ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (317ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (61ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (200ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (197ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (70ms)
+				RefreshPlugins (71ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (58ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006386 seconds.
+Registered in 0.006358 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 69.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.041 seconds
+- Completed reload, in  1.168 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1041ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (1169ms)
+		BeginReloadAssembly (188ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (782ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (896ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (464ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (527ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.8 MB). Loaded Objects now: 6389.
-Memory consumption went from 281.2 MB to 278.3 MB.
-Total: 3.926100 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.164400 ms MarkObjects: 3.050200 ms  DeleteObjects: 0.447600 ms)
+Unloading 79 unused Assets / (2.9 MB). Loaded Objects now: 6371.
+Memory consumption went from 264.3 MB to 261.4 MB.
+Total: 3.243000 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.184500 ms MarkObjects: 2.220200 ms  DeleteObjects: 0.544100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,289 +163,331 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 121133.686290 seconds.
+  Time since last request: 127854.301441 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/NormalMap-stonewall.png
+  artifactKey: Guid(dc5ace17182161947ba5d598f1567fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/NormalMap-stonewall.png using Guid(dc5ace17182161947ba5d598f1567fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9c7b3476f24d2a99d7c2a85b8492f6') in 0.063885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StarterAssets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bdf3094d9f18a02bc95f4850d98435') in 0.005098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
   path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 1.mat
   artifactKey: Guid(e89b0123a5a680f4b8beea96cf9e1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 1.mat using Guid(e89b0123a5a680f4b8beea96cf9e1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a5b0c239d4235677722388fd684440') in 0.078284 seconds 
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 1.mat using Guid(e89b0123a5a680f4b8beea96cf9e1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81727a610d34c504a55ec4545ddb252') in 0.205444 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 874.986131 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png
-  artifactKey: Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png using Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc912e6fd01d3e58307652152db8386') in 0.015150 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA.png
+  artifactKey: Guid(19543e60c7a02894b8a8677ea9a73ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA.png using Guid(19543e60c7a02894b8a8677ea9a73ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f2b20d26bca0a77828d468a3567d2a') in 0.015369 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 261.841724 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png
-  artifactKey: Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png using Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571cc9de48b94120cdf3e78495daea82') in 0.027233 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 1.mat
+  artifactKey: Guid(b3109c37198df8146b34bc9336e79392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 1.mat using Guid(b3109c37198df8146b34bc9336e79392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a28a8eca55128fcbef79e0509ceee24') in 0.019020 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.948210 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png
-  artifactKey: Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png using Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e3637167a901881513534bde7e7441') in 0.006865 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI3_diffuseOriginal.png
+  artifactKey: Guid(2f3a4ac2e176b3347923cf009a318b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI3_diffuseOriginal.png using Guid(2f3a4ac2e176b3347923cf009a318b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd749399d1de2e24aed8f57dd9a5404ab') in 0.012055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.229805 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png
-  artifactKey: Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png using Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386e0025eb6bd6b1d0fad420d47abb67') in 0.005810 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_86933999.png
+  artifactKey: Guid(2c7039c3112d58747ac21426f9b32585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_86933999.png using Guid(2c7039c3112d58747ac21426f9b32585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fda16af1ee56e2651adfc9fc4a4d4b8') in 0.010287 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.263327 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/hei_color 1-g.png
-  artifactKey: Guid(e626cab3f354dbd40877848c19330061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/hei_color 1-g.png using Guid(e626cab3f354dbd40877848c19330061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f826669b47d28d0c5d1ca17310794ac') in 0.009374 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005679 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1020ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (823ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (443ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.8 MB). Loaded Objects now: 6449.
-Memory consumption went from 272.3 MB to 269.5 MB.
-Total: 3.518900 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.162900 ms MarkObjects: 2.586700 ms  DeleteObjects: 0.483500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 2.mat
+  artifactKey: Guid(b104f1ecc9e14034a93120f6bd0f523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 2.mat using Guid(b104f1ecc9e14034a93120f6bd0f523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940ee93325699953c242fd91111353d1') in 0.016955 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2942.899099 seconds.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki.mat
+  artifactKey: Guid(3eaab30e7da77dc4d92a2aa24ae05c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki.mat using Guid(3eaab30e7da77dc4d92a2aa24ae05c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5149b44099278b74e1b7ea735b38e66f') in 0.011620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki Tensyu.mat
+  artifactKey: Guid(8351ae1aa45cdee4d85084189a6f3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki Tensyu.mat using Guid(8351ae1aa45cdee4d85084189a6f3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ece4d86b005f8bb1a0d000fec9486b2') in 0.011090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawa_diffuseOriginal.png
+  artifactKey: Guid(4438870512e4e834b9234355294d8a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawa_diffuseOriginal.png using Guid(4438870512e4e834b9234355294d8a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f670444b8cb25b805f842ef72959a1') in 0.007256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawa_normal.png
+  artifactKey: Guid(bee9b77ceae52f44ba05faba6140fd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawa_normal.png using Guid(bee9b77ceae52f44ba05faba6140fd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f05d589791cbc50c23d428dca3e7562') in 0.008985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI3_normal.png
+  artifactKey: Guid(8f8305eda4724254cafa5c93875321c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI3_normal.png using Guid(8f8305eda4724254cafa5c93875321c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a44f29ce5a090120c597b63c913c63e') in 0.009562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI_height.png
+  artifactKey: Guid(222db33f08f755744abc45eed85261f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI_height.png using Guid(222db33f08f755744abc45eed85261f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c2c2efb4e95577444f7daffdbded96') in 0.009830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 5.mat
+  artifactKey: Guid(60664ab94f9b4b141b832407eee0cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 5.mat using Guid(60664ab94f9b4b141b832407eee0cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77843963c2b6ae630fed0acb55df1722') in 0.011338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA2.png
+  artifactKey: Guid(3212625797a81b248acebbbb465ec439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA2.png using Guid(3212625797a81b248acebbbb465ec439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf20f9b17f9d5a2392854eb2a177d7f9') in 0.023052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI2_height.png
+  artifactKey: Guid(13bd6d4001bbe9b48a729c95ae06e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI2_height.png using Guid(13bd6d4001bbe9b48a729c95ae06e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6154dbaa14f098a8a3fe15f1c9a528b') in 0.008084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 2.mat
+  artifactKey: Guid(79b707dc09f2dc7499c94c292ed28ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 2.mat using Guid(79b707dc09f2dc7499c94c292ed28ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aca3ea7d0c074844c4c1e5a12c5e0eb') in 0.010577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA_diffuseOriginal.png
+  artifactKey: Guid(b1a27ba1dd7620949a99548d1aff211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA_diffuseOriginal.png using Guid(b1a27ba1dd7620949a99548d1aff211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c908f963cdee85d9bcec6aa3d3a86c4') in 0.010451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_8693322.png
+  artifactKey: Guid(662c3a2d2aff9e1468f03daab559453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_8693322.png using Guid(662c3a2d2aff9e1468f03daab559453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2882c3510750519d59e244ba670e4d45') in 0.009964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI2_diffuseOriginal.png
+  artifactKey: Guid(03cbbb1eb8b43e542bb67b1651d6b9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI2_diffuseOriginal.png using Guid(03cbbb1eb8b43e542bb67b1651d6b9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88257e5116643fec6c23f24afee09a31') in 0.007924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
   path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 3-b.mat
   artifactKey: Guid(65c3654df3d838d4bb8cc5e2e8ad9157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 3-b.mat using Guid(65c3654df3d838d4bb8cc5e2e8ad9157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001ae95c746db739a74039343c1fb239') in 0.124224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 1.mat
-  artifactKey: Guid(e89b0123a5a680f4b8beea96cf9e1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 1.mat using Guid(e89b0123a5a680f4b8beea96cf9e1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81727a610d34c504a55ec4545ddb252') in 0.026921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 2.mat
-  artifactKey: Guid(f61d466d9019e094dbf8870e9dccc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 2.mat using Guid(f61d466d9019e094dbf8870e9dccc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2921a6a773de89ff54d1c8286d303db') in 0.028652 seconds 
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 3-b.mat using Guid(65c3654df3d838d4bb8cc5e2e8ad9157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001ae95c746db739a74039343c1fb239') in 0.009792 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b.mat
-  artifactKey: Guid(754a5ebc6c4033e4d8f91ee721e01b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b.mat using Guid(754a5ebc6c4033e4d8f91ee721e01b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7448b9ce45bdb0ac88bf9434309ae9fb') in 0.022632 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005431 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1004ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (438ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.8 MB). Loaded Objects now: 6464.
-Memory consumption went from 272.4 MB to 269.5 MB.
-Total: 3.587200 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.184400 ms MarkObjects: 2.600600 ms  DeleteObjects: 0.509100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/imgg_normal.png
+  artifactKey: Guid(b43dc0718ad33d645895c59d97bd2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/imgg_normal.png using Guid(b43dc0718ad33d645895c59d97bd2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9279006357dacd2c93db49ccfd1ab770') in 0.007878 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 536.910570 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 1.mat
-  artifactKey: Guid(b3109c37198df8146b34bc9336e79392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 1.mat using Guid(b3109c37198df8146b34bc9336e79392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a28a8eca55128fcbef79e0509ceee24') in 0.078796 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ishigaki-shin.png
+  artifactKey: Guid(679d1eadb84efa7428b3e04345a890f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ishigaki-shin.png using Guid(679d1eadb84efa7428b3e04345a890f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407f9f1bdac31627d80289ceaf377ca1') in 0.010239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 6-b.mat
+  artifactKey: Guid(aa4f9fb05ee39034886a32d4dc72b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 6-b.mat using Guid(aa4f9fb05ee39034886a32d4dc72b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f44c3626dd9183ab0bb2b1b8ca1d4c') in 0.010853 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 2.mat
-  artifactKey: Guid(b104f1ecc9e14034a93120f6bd0f523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki 2.mat using Guid(b104f1ecc9e14034a93120f6bd0f523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940ee93325699953c242fd91111353d1') in 0.013827 seconds 
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_8693333.png
+  artifactKey: Guid(9f05cc5df9254b546b22171c79b250d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_8693333.png using Guid(9f05cc5df9254b546b22171c79b250d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3af888a49dc62d3c68b25b070eec56') in 0.006509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA_height.png
+  artifactKey: Guid(2cc3735645adeba43b61495624933abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA_height.png using Guid(2cc3735645adeba43b61495624933abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c4c9d4b9b430923cadd9dd52d45d0f') in 0.009617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI_diffuseOriginal.png
+  artifactKey: Guid(873a60697eeaa1f428b6015258fa52ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI_diffuseOriginal.png using Guid(873a60697eeaa1f428b6015258fa52ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabcf70863daebd827e239a5950de2b1') in 0.011347 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki.mat
-  artifactKey: Guid(3eaab30e7da77dc4d92a2aa24ae05c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki.mat using Guid(3eaab30e7da77dc4d92a2aa24ae05c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55aa1a13eaf689c8b27df82ff0b7b1b') in 0.009955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 889.680824 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 2.mat
-  artifactKey: Guid(f61d466d9019e094dbf8870e9dccc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 2.mat using Guid(f61d466d9019e094dbf8870e9dccc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c330654850bcd04d5569be2148930c4b') in 0.039073 seconds 
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/img_normal.png
+  artifactKey: Guid(524c55a188ef9c649b8f92e2c9cbf7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/img_normal.png using Guid(524c55a188ef9c649b8f92e2c9cbf7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193955be2a0040775c0dd1cdacf57928') in 0.008708 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 3.mat
-  artifactKey: Guid(aa4f9fb05ee39034886a32d4dc72b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b 3.mat using Guid(aa4f9fb05ee39034886a32d4dc72b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1114c53954044f64bb20a7e206d5f651') in 0.045085 seconds 
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 1.mat
+  artifactKey: Guid(533b8247c99f9af4ea91699d2f1d4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 1.mat using Guid(533b8247c99f9af4ea91699d2f1d4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914f66d66391ee980bf00791cd8170fe') in 0.010588 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ishigaki-shin2.png
+  artifactKey: Guid(32d092f4411a55748b84042c7d1b22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ishigaki-shin2.png using Guid(32d092f4411a55748b84042c7d1b22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690de32315348ad8e524d41f37f89087') in 0.008402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
   path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b.mat
   artifactKey: Guid(754a5ebc6c4033e4d8f91ee721e01b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b.mat using Guid(754a5ebc6c4033e4d8f91ee721e01b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2fe4a9ede15cbe432b76e965a6936f') in 0.008410 seconds 
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 4-b.mat using Guid(754a5ebc6c4033e4d8f91ee721e01b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2fe4a9ede15cbe432b76e965a6936f') in 0.009964 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.942753 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki.mat
-  artifactKey: Guid(3eaab30e7da77dc4d92a2aa24ae05c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/Ishigaki.mat using Guid(3eaab30e7da77dc4d92a2aa24ae05c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5149b44099278b74e1b7ea735b38e66f') in 0.011448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.004568 seconds.
+  Time since last request: 0.000020 seconds.
   path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 5-b.mat
   artifactKey: Guid(f61d466d9019e094dbf8870e9dccc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 5-b.mat using Guid(f61d466d9019e094dbf8870e9dccc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842a3686bf6acf9e1166f3eb6709c3cd') in 0.024322 seconds 
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 5-b.mat using Guid(f61d466d9019e094dbf8870e9dccc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842a3686bf6acf9e1166f3eb6709c3cd') in 0.010191 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.576634 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 6-b.mat
-  artifactKey: Guid(aa4f9fb05ee39034886a32d4dc72b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara 6-b.mat using Guid(aa4f9fb05ee39034886a32d4dc72b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f44c3626dd9183ab0bb2b1b8ca1d4c') in 0.025177 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/NormalMap-ishigaki.png
+  artifactKey: Guid(9c6e10a7e5442d94d9e27ebc318ea089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/NormalMap-ishigaki.png using Guid(9c6e10a7e5442d94d9e27ebc318ea089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b039f027857159338edfeb3c217bd487') in 0.007392 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005468 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\PC_User\Documents\Unity\AizuOldCityMap-master\AizuOldCityMap-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
-Domain Reload Profiling:
-	ReloadAssembly (979ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (433ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.8 MB). Loaded Objects now: 6479.
-Memory consumption went from 272.4 MB to 269.6 MB.
-Total: 3.616900 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.170200 ms MarkObjects: 2.650700 ms  DeleteObjects: 0.515300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI3_height.png
+  artifactKey: Guid(9c8dcb709b3dd3e498454c388667b3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI3_height.png using Guid(9c8dcb709b3dd3e498454c388667b3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52e6122b64fb3fa4b24282f945bdd55') in 0.007715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI_normal.png
+  artifactKey: Guid(76d010ddda0e1c24a82a0b16c037b137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI_normal.png using Guid(76d010ddda0e1c24a82a0b16c037b137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6b540ce0a28116aafe4fb29a589f10') in 0.007302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA_normal.png
+  artifactKey: Guid(2981fbdd928fe784b83b8c0ef52b5630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/KAWARA_normal.png using Guid(2981fbdd928fe784b83b8c0ef52b5630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48edc15f20def75956d640ac4f9bf8eb') in 0.009021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/New Material.mat
+  artifactKey: Guid(91123426d60d09648b5e00134ac0a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/New Material.mat using Guid(91123426d60d09648b5e00134ac0a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc189c4caa3208d01c5b0495bb53714') in 0.024111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/shin-ishigaki.png
+  artifactKey: Guid(72ab9b95137c6574ea52bc94a23d7501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/shin-ishigaki.png using Guid(72ab9b95137c6574ea52bc94a23d7501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36c9ad9d1b20668ee11c7660db5c195') in 0.007616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/New Material 2.mat
+  artifactKey: Guid(cda5400fccb91c341a2ff676b8ab0439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/New Material 2.mat using Guid(cda5400fccb91c341a2ff676b8ab0439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806d44b70dedf498c7a9e92046f8d653') in 0.008747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_86933777.png
+  artifactKey: Guid(f93221f0c40b23f4292d18dcb0c95cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/IMG_86933777.png using Guid(f93221f0c40b23f4292d18dcb0c95cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4626407fb0f4338749e555a1a8c2391') in 0.006557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/yanegawara-h.png
+  artifactKey: Guid(1571eec015ff77a4db2aee5129c9da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/yanegawara-h.png using Guid(1571eec015ff77a4db2aee5129c9da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d300f62fadbfba204d512e1f1e2dd0b') in 0.006713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/yanegawara.jpg
+  artifactKey: Guid(a8fc4e9941d0734498317c17914a683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/yanegawara.jpg using Guid(a8fc4e9941d0734498317c17914a683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17194f8c2b6c302c6f34d69305444e14') in 0.006938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/shin-ishigaki-h.png
+  artifactKey: Guid(3240087d56ec20043a7f08c12832b12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/shin-ishigaki-h.png using Guid(3240087d56ec20043a7f08c12832b12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95895f3aba45b4d094b79d5848416280') in 0.007211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/New Material 1.mat
+  artifactKey: Guid(5676d9c6a637c714e9ae6809b2b5fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/New Material 1.mat using Guid(5676d9c6a637c714e9ae6809b2b5fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d4fade5f3f5b29f72787756d085c09') in 0.010231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png
+  artifactKey: Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara1_color-h.png using Guid(a2ed720cae6805b49a0a0b3ffc0e7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386e0025eb6bd6b1d0fad420d47abb67') in 0.006255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/yanegawara-n_normal.png
+  artifactKey: Guid(b7cec5b638087164ca387d49a44f032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/yanegawara-n_normal.png using Guid(b7cec5b638087164ca387d49a44f032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b581573cae85f0906bfc889fb38b2de') in 0.007933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ishigaki2-height.png
+  artifactKey: Guid(1fc6296788f620a43830df2fdf5f0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ishigaki2-height.png using Guid(1fc6296788f620a43830df2fdf5f0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f439b6423e4a9f50e9bcd061abb3e2e') in 0.006415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/shin-ishigaki-n_normal.png
+  artifactKey: Guid(be0c6cca6fa295b4eb9f718aa2bff320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/shin-ishigaki-n_normal.png using Guid(be0c6cca6fa295b4eb9f718aa2bff320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767d895cd2acef0b14c91d278e03e177') in 0.008350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI2_normal.png
+  artifactKey: Guid(f2c46a17f58ed4e42b2e85b5dc33a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/ISHIGAKI2_normal.png using Guid(f2c46a17f58ed4e42b2e85b5dc33a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eb2884521ab7bcf78f68ee0cddec33') in 0.007334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara-b.mat
+  artifactKey: Guid(3743b9069bd783c4cba94865b54a4eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/kawara-b.mat using Guid(3743b9069bd783c4cba94865b54a4eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13ee30ad0c8d668bd1178e124e0a5e7') in 0.010066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.018855 seconds.
+  path: Assets/StandardAssets-2018/Standard Assets
+  artifactKey: Guid(e3dd454de36cf3d48916fb9a7af76b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandardAssets-2018/Standard Assets using Guid(e3dd454de36cf3d48916fb9a7af76b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75297792e1ba6126076f77e2d3442240') in 0.001467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.307378 seconds.
+  path: Assets/StandardAssets-2018/Standard Assets/Environment.unitypackage
+  artifactKey: Guid(1c01d7b1d397e2a4cb5aa9eea564ea76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandardAssets-2018/Standard Assets/Environment.unitypackage using Guid(1c01d7b1d397e2a4cb5aa9eea564ea76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b888219da02056f59b3c82b43f914c') in 0.004855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.254900 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f89f2eae920e6c5b05f6b23fc05f13') in 0.001563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.641992 seconds.
+  path: Assets/StandardAssets-2018/Standard Assets/Vehicles.unitypackage
+  artifactKey: Guid(6ca7a2cbb00ab584e8dbeb1706613a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandardAssets-2018/Standard Assets/Vehicles.unitypackage using Guid(6ca7a2cbb00ab584e8dbeb1706613a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ad449c7c809b523d2be6df00ae6e23') in 0.001867 seconds 
